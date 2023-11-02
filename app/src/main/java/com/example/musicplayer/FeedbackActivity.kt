@@ -32,8 +32,8 @@ class FeedbackActivity : AppCompatActivity() {
         sendBtn.setOnClickListener {
             val feedbackMsg = feedback.text.toString() + "\n" + email.text.toString()
             val subject = topic.text.toString()
-            val userName = "divympatel21@gnu.ac.in"
-            val pass = "Divyp@tel2004"
+            val userName = "jaydipchangani21@gnu.ac.in"
+            val pass = "jaydip123456789"
             val cm = this.getSystemService(Context.CONNECTIVITY_SERVICE) as ConnectivityManager
             if (feedbackMsg.isNotEmpty() && subject.isNotEmpty() && cm.activeNetworkInfo?.isConnectedOrConnecting == true){
                 Thread{
